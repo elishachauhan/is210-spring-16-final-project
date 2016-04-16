@@ -72,7 +72,7 @@ Database and Price Drop
 
 ::
 
-Scenario 01: Giving Information to Customers
+    Scenario 01: Giving Information to Customers
     Given that a database is created with name of product, prices, and
     description,
         And the products are keyed and indexed in a dictionary,
@@ -82,7 +82,7 @@ Scenario 01: Giving Information to Customers
     Then I can establish a reputable source for customers and retailers
         And give customers accurate data on products from specific retailers.
     
-Scenario 02: Alerting Customers on Price Drops
+    Scenario 02: Alerting Customers on Price Drops
     Given that I selected products that are easily accessible through a search
     aggregation,
         And the products have data such as price, price drop, retailer, and 
