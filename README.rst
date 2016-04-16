@@ -63,3 +63,33 @@ Jess the Purchase Tracker's Story
 As Jess the Purchase Tracker, I want to distribute customer information 
 to other retailers so that I can alert customers on price drops and price
 differences on items that they have purchased.
+
+Acceptance Stories
+^^^^^^^^^^^^^^^^^^
+
+Database and Price Drop 
+`````````````````````````````
+
+::
+
+Scenario 01: Giving Information to Customers
+    Given that a database is created with name of product, prices, and
+    description,
+        And the products are keyed and indexed in a dictionary,
+	And the customer information is also keyed and indexed to 
+	products bought,
+    When I update this database on a frequent basis
+    Then I can establish a reputable source for customers and retailers
+        And give customers accurate data on products from specific retailers.
+    
+Scenario 02: Alerting Customers on Price Drops
+    Given that I selected products that are easily accessible through a search
+    aggregation,
+        And the products have data such as price, price drop, retailer, and 
+	availabiliy,
+	And I can sort, store, and pull up this information from a database,
+    When I compare prices between retailers
+    Then I can provide information to customers that want to save money on
+    on a specific item, product, or service
+        And alert customers when the price is lower than the price at the time of
+	sale.
