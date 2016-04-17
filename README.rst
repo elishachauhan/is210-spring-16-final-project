@@ -57,10 +57,10 @@ relays price drop information in a instantaneous and cohesive manner.
 User Stories
 ============
 
-Jess the Purchase Tracker's Story
+Elene the Shopper's Story
 ------------------------------------------------------------
 
-As Jess the Purchase Tracker, I want to distribute customer information 
+As Elene the Shopper, I want to distribute customer information 
 to other retailers so that I can alert customers on price drops and price
 differences on items that they have purchased.
 
